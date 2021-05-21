@@ -1,0 +1,510 @@
+@media only screen and (max-width: 600px) {
+    .banner{      
+        background-image: url("../../assets/images/mobile/banner_mobile.svg");
+        background-repeat: no-repeat;
+        height: 850px;
+        width: auto;
+    }
+
+    .logo {
+        height: 62px;
+        width: 180px;
+    }
+
+    .no-sm {
+        display: none;
+    }
+
+    .card {
+        width: 210px;
+        height: auto;
+        background: rgba(27, 24, 24, 0.06);
+        box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(100px);
+        border-radius: 20px;
+        color: white;
+        margin-top: 30px;
+    }
+
+    #phone_mobile{
+        position:absolute;
+        top: 50%;
+        left: 0%;
+        height: 220px;
+        width: 220px;
+    }
+    
+    .card2 {
+        width: auto;
+        height: auto;
+        background: rgba(196, 196, 196, 0.2);
+        box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        color: #06153C;
+        padding: 20px;
+    }
+    
+    .card p, .card2 p {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    
+    .card h1 {
+        font-family: Suez One;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 30px;
+        color: #FFFFFF;
+        text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.4);
+    }
+    
+    .card h2 {
+        font-family: Suez One;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.4);
+    }
+    
+    .card2 h2 {
+        font-family: Suez One;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 55px;
+        color: #06153C;
+    }
+
+    .planets {
+        position: relative;
+        height:550px;
+        padding: 30px;
+    }
+
+    .planets h2{
+        font-family: Suez One;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+        color: #0C0433;
+        text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.4);
+    }
+
+    .planet {
+       width: 150px;
+       height: 150px;
+    }
+
+    #planet1{
+        position:absolute;
+        top: 15%;
+        left: 15%;
+    }
+
+    #planet2{
+        position:absolute;
+        top: 70%;
+        left: 15%;
+    }
+
+    #planet3{
+        position:absolute;
+        top: 50%;
+        right: 10%;
+    }
+
+    #planet4{
+        position:absolute;
+        top: 45%;
+        left: 15%;
+    }
+
+    #planet5{
+        position:absolute;
+        top: 25%;
+        right: 10%;
+    }
+
+    
+    #planet6{
+        position:absolute;
+        top: 80%;
+        right: 10%;
+    }
+
+    .about {
+        background-image: url("../../assets/images/mobile/banner_about_mobile.svg");
+        background-repeat: no-repeat;
+        position: relative;
+        height:900px;
+        padding: 30px;
+    }
+    
+    #about1 {
+        width: 180px;
+        height: 180px;
+        position: absolute;
+        left: 48.11%;
+        top: 45%;
+    }
+    
+    #about2 {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        left: 20.11%;
+        top: 48.64%;
+    }
+    
+    #about3 {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        left: 35.11%;
+        top: 60%;
+    }
+
+    .goals {
+        position: relative;
+        height:440px;
+        padding: 30px;
+    }
+
+    #astro_mobile{
+        position: absolute;
+        top: 0%;
+        right: 5%;
+        width: 100px;
+        height:150px;
+    }
+
+    
+    .contact {
+        background-image: url("../../assets/images/mobile/contact_mobile.svg");
+        background-repeat: no-repeat;
+        position: relative;
+        height:400px;
+        padding: 30;
+        color: white;
+        text-align: center;
+    }
+
+    .contact h3{
+        font-family: Suez One;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        margin-top: 50px;
+    }
+
+    .social_icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer {
+        position: relative;
+        height:100px;
+        padding: 30px;
+    }
+  }
+
+  @media only screen and (min-width: 600px) {
+
+    .no-md {
+        display: none;
+    }
+
+    .banner{      
+        background-image: url("../../assets/images/banner.svg");
+        background-repeat: no-repeat;
+        /*background: linear-gradient(black, white);*/
+        width: auto;
+        height: 1750px;
+    }
+    .banner h2{
+        text-align: center;
+        color: #FFFFFF;
+        font-family: Suez One;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 60px;
+        line-height: 70px;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .card {
+        width: 511px;
+        height: auto;
+        background: rgba(27, 24, 24, 0.06);
+        box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(100px);
+        /* Note: backdrop-filter has minimal browser support */
+        border-radius: 20px;
+        color: white;
+        margin-top: 70px;
+        padding: 40px;
+        margin-bottom: 100px;
+    }
+    
+    .card2 {
+        width: 480px;
+        height: auto;
+        background: rgba(196, 196, 196, 0.2);
+        box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        color: #06153C;
+    }
+    
+    .card p, .card2 p {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: justify;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 40px;
+    }
+    
+    .card h1 {
+        font-family: Suez One;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 60px;
+        line-height: 70px;
+        text-align: center;
+        color: #FFFFFF;
+        text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.4);
+    }
+    
+    .card h2 {
+        font-family: Suez One;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 30px;
+        text-align: center;
+        color: #FFFFFF;
+        text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.4);
+    }
+    
+    .card2 h2 {
+        font-family: Suez One;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 60px;
+        line-height: 55px;
+        color: #06153C;
+        padding: 40px;
+    }
+
+    .about {
+        background-image: url("../../assets/images/banner_about.svg");
+        background-repeat: no-repeat;
+        position: relative;
+        height:1000px;
+        padding: 30px;
+    }
+    
+    #about1 {
+        position: absolute;
+        left: 60.11%;
+        top: 0%;
+    }
+    
+    #about2 {
+        position: absolute;
+        left: 6.11%;
+        top: 20.64%;
+    }
+    
+    #about3 {
+        position: absolute;
+        left: 58.11%;
+        top: 45%;
+    }
+
+    .goals {
+        position: relative;
+        height:700px;
+        padding: 30px;
+    }
+
+    .contact {
+        background-image: url("../../assets/images/banner_contact.svg");
+        background-repeat: no-repeat;
+        position: relative;
+        height:470px;
+        padding: 180px;
+        color: white;
+    }
+    
+    .footer {
+        position: relative;
+        height:100px;
+        padding: 60px;
+    }
+
+    .planets {
+        position: relative;
+        height:600px;
+        padding: 30px;
+    }
+
+    #planet1{
+        position:absolute;
+        top: 35%;
+        left: 1%;
+    }
+
+    #planet2{
+        position:absolute;
+        top: 5%;
+        left: 30%;
+    }
+
+    #planet3{
+        position:absolute;
+        top: 65%;
+        left: 25%;
+    }
+
+    #planet4{
+        position:absolute;
+        top: 0%;
+        right: 14%;
+    }
+
+    #planet5{
+        position:absolute;
+        top: 55%;
+        right: 20%;
+    }
+
+    
+    #planet6{
+        position:absolute;
+        top: 20%;
+        right: 0%;
+    }
+
+    #logo_footer {
+        position: absolute;
+        width: 100px;
+        height: 80px;
+        top: 50%;
+        left: 2%;
+    }
+
+    #astro2 {
+        position: absolute;
+        left: 0%;
+        top: 7%;
+      }
+      
+      #astro3 {
+        position: absolute;
+        right: 0%;
+        top: 40%;
+      }
+    
+      #phone2 {
+        position: absolute;
+        right: 0%;
+        top: 60%;
+      }
+  }
+
+#phone:hover {
+    display: none;
+}
+
+#show_phone{
+    position: absolute;
+    top: 125%;
+    right: 15%;
+}
+
+#show_phone:hover {
+    background-image: url("../../assets/images/phone2.png");
+    height: 650px;
+    width: 500px;
+    cursor: pointer;
+}
+
+.content-paddding {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.info {
+    padding-left: 230px;
+    padding-right: 230px;
+}
+
+.info p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 30px;
+    text-align:  justify;
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.title_info {
+    font-family: Suez One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 30px;
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.text_info {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 30px;
+    text-align:  justify;
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.select_info  {
+    cursor: pointer;
+}
+
+.bg_info{
+    background: #2c2c2c;
+}
+
+.dot {
+    height: 20px;
+    width: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .dot-pink {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #AA35A7;
+  }
+
+

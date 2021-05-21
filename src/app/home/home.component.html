@@ -1,0 +1,165 @@
+<div class="banner">
+    <div class="container">
+        <p class="text-center mt-2"><img class="logo" src="../../assets/images/logo.svg" alt=""></p>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card m-5">
+                    <h1 class="text-center">¡Bienvenido a Orbyus!</h1>
+                    <p class="text-center">Un espacio donde las personas pueden expresar, 
+                        encontrar y resolver de manera libre y segura lo que deseen, 
+                        tanto con expertos como con otras personas.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!--div class="col-md-3">
+                <img class="logo" src="../../assets/images/mobile/phone_mobile.png" alt="">
+            </div-->
+            <!--img id="phone_mobile" src="../../assets/images/mobile/phone_mobile.png" alt=""-->
+            <div class="col offset-2">
+                <div class="card">
+                    <h2 class="text-center">Lo que estamos construyendo para ti</h2>
+                    <div class="container">
+                        <p class="text-center" >Estamos diseñando una plataforma donde podrás encontrar 
+                            no solo expertos, sino personas que compartan tus afinidades, gustos, ideas, 
+                            dudas y demás. entra y explora lo que estamos haciendo para todos</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div id="show_phone" class="no-sm" (click)="open(content)">
+                <img id="phone" src="../../assets/images/phone.png" alt="">
+            </div>
+                
+        </div>
+        <h2 class="text-center no-sm">Tendremos contenido para <br> todo público</h2>
+    </div>
+</div>
+<div class="planets">
+    <h2 class="text-center no-md">Explora el contenido que más te interese</h2>
+    <div class="row">   
+        <img  id="planet1" class="planet" src="../../assets/images/planet1.svg" alt="">
+        <img id="planet2" class="planet" src="../../assets/images/planet2.svg" alt="">
+        <img id="planet3" class="planet" src="../../assets/images/planet3.svg" alt="">
+        <img id="planet4" class="planet" src="../../assets/images/planet4.svg" alt="">
+        <img id="planet5" class="planet" src="../../assets/images/planet5.svg" alt="">
+        <img id="planet6" class="planet" src="../../assets/images/planet6.svg" alt="">
+
+    </div>
+    <!--div id="planet1"><img src="../../assets/images/planet.png" alt=""></div>
+    <div id="planet2"><img src="../../assets/images/planet.png" alt=""></div-->
+</div>
+<div class="about">
+    <div class="row">
+        <div class="col-md-4 offset-2">
+            <div class="card">
+                <h1 class="text-center">Quienes somos</h1><br>
+                <p class="text-center">Somos un equipo multidisciplinario con alta capacidad de liderazgo, 
+                    innovación y creatividad</p>
+                <p class="text-center">Tenemos fortalezas en el ámbito tecnológico, financiero y social.</p>
+                <p class="text-center">Cómo equipo avanzamos pro a la tecnología para darle al mundo una 
+                    plataforma capaz de fortalecer el relacionamiento humano y la capacidad adquisitiva de los 
+                    recursos de expertos y profesionales.</p>
+                <p class="text-center">Trabajamos todos los días para que este universo pueda despegar.</p> 
+            </div>
+            
+        </div>
+    </div>
+    <img id ="about2" src="../../assets/images/about2.png" alt="">
+    <img id ="about1" src="../../assets/images/about1.png" alt="">
+    <img id ="about3" src="../../assets/images/about3.png" alt="">
+</div>
+<div class="goals">
+    <div class="row">
+        <!--div class="col-md-4 offset-2">
+            <img src="../../assets/images/astro.png" alt="">
+        </div-->
+        <img id="astro_mobile" class="no-md" src="../../assets/images/mobile/astro_mobile.png" alt="">
+        <div class="col-md-4 offset-2 no-sm">
+            <img  id="astro" src="../../assets/images/astro.png" alt="">
+        </div>
+        <div class="col-md-4">
+            <div class="card2">
+                <h2 class="text-center">Nuestra meta</h2><br>
+                <div class="container">
+                    <p class="text-center">Brindar a los usuarios una alternativa a través de una plataforma diferente para poder acceder 
+                        a recursos profesionales y expertos a un costo accesible. Al mismo tiempo, brindar a los expertos, 
+                        profesionales y demás personas llenas de habilidades y conocimientos un espacio para compartirlo 
+                        con el mundo y poder ganar por ello.</p>
+                        <p>Es un sueño que queremos que llegue a cada rincón del planeta.</p>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+</div>
+
+<div class="contact">
+    <div class="row">
+        <div class="col offset-1 no-sm">
+            <img src="../../assets/images/logo2.png" alt="">
+        </div>
+        <div class="col">
+            <h3>¡Contáctanos!</h3>
+            <a class="text-white" href="mailto:contacto@orbyusapp.com">contacto@orbyusapp.com</a><br>
+            <img  class="m-2 social_icon" src="../../assets/images/instagram.svg" alt="">
+            <img class="m-2 social_icon" src="../../assets/images/facebook.svg" alt="">
+            <img class="m-2 social_icon" src="../../assets/images/twitter.svg" alt="">
+            <img class="m-2 social_icon" src="../../assets/images/youtube.svg" alt="">
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <p class="text-center text-red">Copyright © Orbyus SAS</p>
+</div>
+
+<ng-template #content let-modal>
+    <div class="modal-body bg_info text-white">
+        <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        <h4 class="modal-title text-center mt-3 mb-5 title_info" id="modal-basic-title">Somos una plataforma que...</h4>
+        <div [ngbNavOutlet]="nav"></div>
+        <div class="d-flex justify-content-center">
+            <ul ngbNav #nav="ngbNav" [(activeId)]="active">
+                <li class="select_info" *ngIf="active==2;"><img (click)="nav.select(1)" src="../../assets/images/left.svg" alt=""></li>
+                <li [ngbNavItem]="1">
+                  <a ngbNavLink><span *ngIf="active==2; else elseBlock" class="dot"></span></a>
+                  <ng-template ngbNavContent>
+                      <div class="info">
+                        <img id="astro2" width="400" height="400" src="../../assets/images/astro2.png" alt="">
+                        <img id="astro3" width="350" height="350" src="../../assets/images/astro3.png" alt="">
+                        <p><b>Encuentra y relaciona</b> personas a partir de sus interes, gustos, dudas y afinididades. </p>
+                        <p>¿Como funciona? Estamos creando una red de contenido abierto, en donde los usarios crean 
+                             publicaciones para expresar  lo que deseen. Estas publicaciones, al ser abiertas, estarán sujetas a ser 
+                             comentadas, debatidas, refutadas, apoyadas y demás, tanto por otros usuarios como por expertos de Orbyus
+                        </p>
+                        <p>Aquí los expertos podrán hablar con clientes potenciales  y hacerse notar y los usuarios expresarse libremente </p>
+                      </div>
+                  </ng-template>
+                </li>
+                <li [ngbNavItem]="2">
+                    <a ngbNavLink><span *ngIf="active==1; else elseBlock" class="dot"></span>
+                    </a>
+                  <ng-template ngbNavContent>
+                    <div class="info">
+                        <img id="astro2" width="250" height="250"src="../../assets/images/pc.png" alt="">
+                        <img id="phone2" width="200" height="200"src="../../assets/images/phone.png" alt="">
+                        <p>Encuentra y relaciona usuarios con necesidades y/o preguntas puntuales que serán resueltas con expertos de Orbyus</p>
+                        <p>¿Cómo funciona? Creamos una nueva herramienta que facilita la comunicación entre expertos y usuarios. El usuario solo deberá 
+                            pagar un costo accequible para recibir un consejo, duda, guía y/o respuesta personalizada que complazca 
+                            sus requerimientos.</p>
+                        <p>Estamos acercando los servicios tradicionales a las nuevas necesidades del mundo digital
+                        </p>
+                    </div>
+                </ng-template>
+                </li>
+                <li *ngIf="active==1;" class="select_info"><img (click)="nav.select(2)" src="../../assets/images/right.svg" alt=""></li>
+              </ul>
+        </div>
+        <ng-template #elseBlock><span class="dot-pink"></span></ng-template>
+    </div>
+  </ng-template>
+
+
+
