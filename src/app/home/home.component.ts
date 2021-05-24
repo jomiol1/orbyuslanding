@@ -25,4 +25,8 @@ export class HomeComponent implements OnInit {
     this.modalService.open(content, { size: 'lg'});
   }
 
+  open_mobile(content) {
+    this.modalService.open(content, { size: 'sm'});
+  }
+
 }

@@ -24,12 +24,13 @@
         border-radius: 20px;
         color: white;
         margin-top: 30px;
+        padding: 5px;
     }
 
     #phone_mobile{
         position:absolute;
-        top: 50%;
-        left: 0%;
+        top: 60%;
+        left: 00%;
         height: 220px;
         width: 220px;
     }
@@ -154,7 +155,7 @@
         height: 180px;
         position: absolute;
         left: 48.11%;
-        top: 45%;
+        top: 55%;
     }
     
     #about2 {
@@ -162,7 +163,7 @@
         height: 100px;
         position: absolute;
         left: 20.11%;
-        top: 48.64%;
+        top: 58.64%;
     }
     
     #about3 {
@@ -170,7 +171,7 @@
         height: 100px;
         position: absolute;
         left: 35.11%;
-        top: 60%;
+        top: 70%;
     }
 
     .goals {
@@ -192,8 +193,8 @@
         background-image: url("../../assets/images/mobile/contact_mobile.svg");
         background-repeat: no-repeat;
         position: relative;
-        height:400px;
-        padding: 30;
+        height:300px;
+        padding: 10;
         color: white;
         text-align: center;
     }
@@ -206,6 +207,12 @@
         margin-top: 50px;
     }
 
+    #logo_mobile_white{
+        height: 40px;
+        width: 130px;
+        padding: 5px;
+    }
+
     .social_icon {
         width: 30px;
         height: 30px;
@@ -216,9 +223,45 @@
         height:100px;
         padding: 30px;
     }
+
+    .info {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .info p{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        text-align:  justify;
+        text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    .title_info {
+        font-family: Suez One;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+        text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.4);
+    }
+    
+    .text_info {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 15px;
+        line-height: 30px;
+        text-align:  justify;
+        text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    
   }
 
-  @media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) {
 
     .no-md {
         display: none;
@@ -264,12 +307,13 @@
         box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 20px;
         color: #06153C;
+        padding: 30px;
     }
     
     .card p, .card2 p {
         font-family: Roboto;
         font-style: normal;
-        font-weight: normal;
+        font-weight: 50;
         font-size: 20px;
         line-height: 30px;
         text-align: justify;
@@ -281,7 +325,7 @@
     .card h1 {
         font-family: Suez One;
         font-style: normal;
-        font-weight: normal;
+        font-weight: 900;
         font-size: 60px;
         line-height: 70px;
         text-align: center;
@@ -292,7 +336,7 @@
     .card h2 {
         font-family: Suez One;
         font-style: normal;
-        font-weight: normal;
+        font-weight: 800;
         font-size: 40px;
         line-height: 30px;
         text-align: center;
@@ -303,11 +347,10 @@
     .card2 h2 {
         font-family: Suez One;
         font-style: normal;
-        font-weight: normal;
+        font-weight:900;
         font-size: 60px;
         line-height: 55px;
         color: #06153C;
-        padding: 40px;
     }
 
     .about {
@@ -320,20 +363,20 @@
     
     #about1 {
         position: absolute;
-        left: 60.11%;
-        top: 0%;
+        left: 55.11%;
+        top: 2%;
     }
     
     #about2 {
         position: absolute;
-        left: 6.11%;
-        top: 20.64%;
+        left: 3.11%;
+        top: 22.64%;
     }
     
     #about3 {
         position: absolute;
-        left: 58.11%;
-        top: 45%;
+        left: 54.11%;
+        top: 48%;
     }
 
     .goals {
@@ -359,45 +402,50 @@
 
     .planets {
         position: relative;
-        height:600px;
-        padding: 30px;
+        height:500px;
+        padding: 20px;
     }
+
+    .planet {
+        width: 270px;
+        height: 270px;
+     }
 
     #planet1{
         position:absolute;
-        top: 35%;
-        left: 1%;
+        top: 22%;
+        left: 4%;
     }
 
     #planet2{
         position:absolute;
-        top: 5%;
-        left: 30%;
+        top: -9%;
+        left: 26%;
     }
 
     #planet3{
         position:absolute;
-        top: 65%;
-        left: 25%;
+        top: 35%;
+        left: 34%;
     }
 
     #planet4{
         position:absolute;
-        top: 0%;
-        right: 14%;
+        top: -20%;
+        right: 29%;
     }
 
     #planet5{
         position:absolute;
-        top: 55%;
-        right: 20%;
+        top: 49%;
+        right: 21%;
     }
 
     
     #planet6{
         position:absolute;
-        top: 20%;
-        right: 0%;
+        top: 17%;
+        right: 9%;
     }
 
     #logo_footer {
@@ -412,29 +460,71 @@
         position: absolute;
         left: 0%;
         top: 7%;
+        width:400px ;
+        height: 400px;
       }
       
       #astro3 {
         position: absolute;
         right: 0%;
         top: 40%;
+        width:350px ;
+        height: 350px;
+      }
+
+      #pc {
+        position: absolute;
+        left: 0%;
+        top: 7%;
+        width:250px ;
+        height: 250px;
       }
     
       #phone2 {
         position: absolute;
         right: 0%;
         top: 60%;
+        width:200px ;
+        height: 200px;
       }
+
+      .info {
+        padding-left: 230px;
+        padding-right: 230px;
+    }
+    
+    .info p{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 15px;
+        line-height: 30px;
+        text-align:  justify;
+        text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    
+    .title_info {
+        font-family: Suez One;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 30px;
+        text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.4);
+    }
+    
+    .text_info {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 15px;
+        line-height: 30px;
+        text-align:  justify;
+        text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+    }
   }
 
 #phone:hover {
     display: none;
-}
-
-#show_phone{
-    position: absolute;
-    top: 125%;
-    right: 15%;
 }
 
 #show_phone:hover {
@@ -447,40 +537,6 @@
 .content-paddding {
     padding-left: 100px;
     padding-right: 100px;
-}
-
-.info {
-    padding-left: 230px;
-    padding-right: 230px;
-}
-
-.info p{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 15px;
-    line-height: 30px;
-    text-align:  justify;
-    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.title_info {
-    font-family: Suez One;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 40px;
-    line-height: 30px;
-    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.4);
-}
-
-.text_info {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 15px;
-    line-height: 30px;
-    text-align:  justify;
-    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .select_info  {
